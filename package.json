@@ -1,0 +1,33 @@
+{
+  "name": "uuid-mysql",
+  "version": "1.0.0",
+  "description": "Consuming an API for accessing data, MySQL, using NodeJS and Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "uuid",
+    "mysql",
+    "client"
+  ],
+  "author": "Kaichiro Fukuda",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaichiro/uuid-consume-client-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaichiro/uuid-consume-client-api/issues"
+  },
+  "homepage": "https://github.com/kaichiro/uuid-consume-client-api#readme"
+}

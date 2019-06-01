@@ -1,0 +1,23 @@
+<% include ../partials/header.ejs %>
+
+    <h1>Update Customer</h1>
+
+    <p><a href="/customers">Customer List</a></p>
+
+    <form method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="id" name="id" value="<%= customer.id %>" readonly />
+        </div>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" value="<%= customer.name %>" placeholder="Put name here!" />
+        </div>
+        <div class="form-group">
+            <label for="birth_day">Bithday</label>
+            <input type="text" class="form-control" id="birth_day" name="birth_day" value="<%= customer.birth_day %>" placeholder="Put birth day here!" />
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+
+<% include ../partials/footer.ejs %>
